@@ -12,11 +12,35 @@ class LoginScreenViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var scrollView: UIScrollView!
-    ////
-    
     @IBAction func loginButtonTap(_ sender: Any) {
-        print("Test")
     }
+    
+    //Условный переход (с проверкой логина и пароля)
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        return userValidation();
+    }
+    
+    //Проверка логина и пароля
+    func userValidation() -> Bool {
+        let login = loginTextField.text
+        let password = passwordTextField.text
+        let res = (login == "admin" && password == "password")
+        
+        //показываем варнинг что пароль не верен
+        if (!res) {
+            // Создаем контроллер
+            let alert = UIAlertController(title: "Ошибка", message: "Введены неверные данные пользователя", preferredStyle: .alert)
+            // Создаем кнопку для UIAlertController
+            let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            // Добавляем кнопку на UIAlertController
+            alert.addAction(action)
+            // Показываем UIAlertController
+            present(alert, animated: true, completion: nil)
+        }
+        
+        return res
+    }
+    
     // Когда клавиатура появляется
     @objc func keyboardWasShown(notification: Notification) {
         
