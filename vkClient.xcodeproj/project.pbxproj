@@ -13,6 +13,16 @@
 		577CA292274115810049AA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577CA291274115810049AA61 /* Assets.xcassets */; };
 		577CA295274115810049AA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577CA293274115810049AA61 /* LaunchScreen.storyboard */; };
 		577CA29D27411F080049AA61 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577CA29C27411F080049AA61 /* LoginScreenViewController.swift */; };
+		578A4DA1274968120012396F /* MyFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DA0274968120012396F /* MyFriendsController.swift */; };
+		578A4DA3274968310012396F /* MyFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DA2274968310012396F /* MyFriendsCell.swift */; };
+		578A4DA5274968760012396F /* MyPublicsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DA4274968760012396F /* MyPublicsController.swift */; };
+		578A4DA7274968930012396F /* MyPublicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DA6274968930012396F /* MyPublicsCell.swift */; };
+		578A4DA9274969D40012396F /* AllPublicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DA8274969D40012396F /* AllPublicCell.swift */; };
+		578A4DAB274969FD0012396F /* AllPublicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DAA274969FD0012396F /* AllPublicController.swift */; };
+		578A4DAD27496A460012396F /* MyFriendsPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DAC27496A460012396F /* MyFriendsPhotosController.swift */; };
+		578A4DAF27496A980012396F /* MyFriendsPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DAE27496A980012396F /* MyFriendsPhotosCell.swift */; };
+		578A4DB2274976200012396F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DB1274976200012396F /* UserModel.swift */; };
+		578A4DB4274976350012396F /* PublicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DB3274976350012396F /* PublicModel.swift */; };
 		57C335C727442AE80072FCB8 /* FriendsScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C335C627442AE80072FCB8 /* FriendsScreenTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +35,16 @@
 		577CA294274115810049AA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577CA296274115810049AA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577CA29C27411F080049AA61 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		578A4DA0274968120012396F /* MyFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsController.swift; sourceTree = "<group>"; };
+		578A4DA2274968310012396F /* MyFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsCell.swift; sourceTree = "<group>"; };
+		578A4DA4274968760012396F /* MyPublicsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublicsController.swift; sourceTree = "<group>"; };
+		578A4DA6274968930012396F /* MyPublicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublicsCell.swift; sourceTree = "<group>"; };
+		578A4DA8274969D40012396F /* AllPublicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPublicCell.swift; sourceTree = "<group>"; };
+		578A4DAA274969FD0012396F /* AllPublicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPublicController.swift; sourceTree = "<group>"; };
+		578A4DAC27496A460012396F /* MyFriendsPhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsPhotosController.swift; sourceTree = "<group>"; };
+		578A4DAE27496A980012396F /* MyFriendsPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsPhotosCell.swift; sourceTree = "<group>"; };
+		578A4DB1274976200012396F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		578A4DB3274976350012396F /* PublicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicModel.swift; sourceTree = "<group>"; };
 		57C335C627442AE80072FCB8 /* FriendsScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreenTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +78,11 @@
 		577CA2872741157F0049AA61 /* vkClient */ = {
 			isa = PBXGroup;
 			children = (
+				578A4DB0274975BA0012396F /* Model */,
+				578A4D9B274967280012396F /* MyFriendsPhotos */,
+				578A4D9A274966F20012396F /* AllPublics */,
+				578A4D99274966E40012396F /* MyPublics */,
+				578A4D98274966C60012396F /*  MyFriends */,
 				577CA2882741157F0049AA61 /* AppDelegate.swift */,
 				577CA28A2741157F0049AA61 /* SceneDelegate.swift */,
 				577CA29C27411F080049AA61 /* LoginScreenViewController.swift */,
@@ -68,6 +93,51 @@
 				577CA296274115810049AA61 /* Info.plist */,
 			);
 			path = vkClient;
+			sourceTree = "<group>";
+		};
+		578A4D98274966C60012396F /*  MyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				578A4DA0274968120012396F /* MyFriendsController.swift */,
+				578A4DA2274968310012396F /* MyFriendsCell.swift */,
+			);
+			path = " MyFriends";
+			sourceTree = "<group>";
+		};
+		578A4D99274966E40012396F /* MyPublics */ = {
+			isa = PBXGroup;
+			children = (
+				578A4DA4274968760012396F /* MyPublicsController.swift */,
+				578A4DA6274968930012396F /* MyPublicsCell.swift */,
+			);
+			path = MyPublics;
+			sourceTree = "<group>";
+		};
+		578A4D9A274966F20012396F /* AllPublics */ = {
+			isa = PBXGroup;
+			children = (
+				578A4DA8274969D40012396F /* AllPublicCell.swift */,
+				578A4DAA274969FD0012396F /* AllPublicController.swift */,
+			);
+			path = AllPublics;
+			sourceTree = "<group>";
+		};
+		578A4D9B274967280012396F /* MyFriendsPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				578A4DAC27496A460012396F /* MyFriendsPhotosController.swift */,
+				578A4DAE27496A980012396F /* MyFriendsPhotosCell.swift */,
+			);
+			path = MyFriendsPhotos;
+			sourceTree = "<group>";
+		};
+		578A4DB0274975BA0012396F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				578A4DB1274976200012396F /* UserModel.swift */,
+				578A4DB3274976350012396F /* PublicModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +212,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				577CA2892741157F0049AA61 /* AppDelegate.swift in Sources */,
+				578A4DAB274969FD0012396F /* AllPublicController.swift in Sources */,
+				578A4DA3274968310012396F /* MyFriendsCell.swift in Sources */,
 				577CA28B2741157F0049AA61 /* SceneDelegate.swift in Sources */,
+				578A4DA5274968760012396F /* MyPublicsController.swift in Sources */,
+				578A4DB2274976200012396F /* UserModel.swift in Sources */,
+				578A4DB4274976350012396F /* PublicModel.swift in Sources */,
+				578A4DA1274968120012396F /* MyFriendsController.swift in Sources */,
+				578A4DAF27496A980012396F /* MyFriendsPhotosCell.swift in Sources */,
 				577CA29D27411F080049AA61 /* LoginScreenViewController.swift in Sources */,
+				578A4DA7274968930012396F /* MyPublicsCell.swift in Sources */,
 				57C335C727442AE80072FCB8 /* FriendsScreenTableViewController.swift in Sources */,
+				578A4DAD27496A460012396F /* MyFriendsPhotosController.swift in Sources */,
+				578A4DA9274969D40012396F /* AllPublicCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
