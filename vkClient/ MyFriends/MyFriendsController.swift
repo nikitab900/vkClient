@@ -21,6 +21,7 @@ class MyFriendsController: UITableViewController {
         super.viewDidLoad()
         
         initPhotos() // инициализация альбома фотографий
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -48,6 +49,7 @@ class MyFriendsController: UITableViewController {
         //записываем друга в lable ячейки
         cell.myFriendName.text = myFriends[indexPath.row]._name
         cell.myFriendAvatar.image = UIImage(named: myFriends[indexPath.row]._avatar)
+        cell.myFriendAvatar.addShadow(containerView: cell.myFriendAvatarConteiner) //добавляем тень и скругление к аватарке
 
         return cell
     }

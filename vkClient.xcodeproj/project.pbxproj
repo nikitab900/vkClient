@@ -24,6 +24,7 @@
 		578A4DB2274976200012396F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DB1274976200012396F /* UserModel.swift */; };
 		578A4DB4274976350012396F /* PublicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A4DB3274976350012396F /* PublicModel.swift */; };
 		57C335C727442AE80072FCB8 /* FriendsScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C335C627442AE80072FCB8 /* FriendsScreenTableViewController.swift */; };
+		57EE180D2753EEA70007B5B7 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE180C2753EEA70007B5B7 /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		578A4DB1274976200012396F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		578A4DB3274976350012396F /* PublicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicModel.swift; sourceTree = "<group>"; };
 		57C335C627442AE80072FCB8 /* FriendsScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreenTableViewController.swift; sourceTree = "<group>"; };
+		57EE180C2753EEA70007B5B7 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		577CA2872741157F0049AA61 /* vkClient */ = {
 			isa = PBXGroup;
 			children = (
+				57EE180B2753EE5D0007B5B7 /* CustomComponents */,
 				578A4DB0274975BA0012396F /* Model */,
 				578A4D9B274967280012396F /* MyFriendsPhotos */,
 				578A4D9A274966F20012396F /* AllPublics */,
@@ -138,6 +141,14 @@
 				578A4DB3274976350012396F /* PublicModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57EE180B2753EE5D0007B5B7 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				57EE180C2753EEA70007B5B7 /* AvatarView.swift */,
+			);
+			path = CustomComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				578A4DA7274968930012396F /* MyPublicsCell.swift in Sources */,
 				57C335C727442AE80072FCB8 /* FriendsScreenTableViewController.swift in Sources */,
 				578A4DAD27496A460012396F /* MyFriendsPhotosController.swift in Sources */,
+				57EE180D2753EEA70007B5B7 /* AvatarView.swift in Sources */,
 				578A4DA9274969D40012396F /* AllPublicCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

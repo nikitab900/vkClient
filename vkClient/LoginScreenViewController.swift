@@ -17,7 +17,7 @@ class LoginScreenViewController: UIViewController {
     
     //Условный переход (с проверкой логина и пароля)
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        return userValidation();
+        return true//userValidation();
     }
     
     //Проверка логина и пароля
